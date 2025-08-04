@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  color: #00ffcc;
+  text-align: center;
+}
+
+#menu {
+  padding-top: 60px;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 20px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #00ffaa;
+}
+
+#patch-notes {
+  margin-top: 40px;
+  text-align: left;
+  display: inline-block;
+  color: #eee;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 16px;
+  border-radius: 10px;
+}
+
+canvas {
+  display: none;
+  background: #111;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #00ffcc;
+  border-radius: 10px;
+  margin-top: 40px;
+}
