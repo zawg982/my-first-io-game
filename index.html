@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BiomeQuest.io</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0; padding: 0; overflow: hidden;
+      background: #111; color: #fff;
+      font-family: sans-serif;
+    }
+    #homeScreen {
+      position: absolute;
+      top: 40%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: #222;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    input, select, button {
+      margin: 5px; padding: 10px;
+      border: none; border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <div id="homeScreen">
+    <input id="username" placeholder="Enter name" />
+    <select id="skinColor">
+      <option value="#ffffff">White</option>
+      <option value="#ff6666">Red</option>
+      <option value="#66ff66">Green</option>
+      <option value="#6666ff">Blue</option>
+    </select>
+    <button id="playBtn">Play</button>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
